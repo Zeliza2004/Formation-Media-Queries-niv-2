@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 2 : déja vu?</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>La grille bootstrap et les couleurs</h1>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col bg-danger font-weight-bold">
+                <p>Header</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4  order-sm-1 order-md-0 bg-warning font-weight-bold">
+                <p>ASIDE1</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 order-sm-0 order-md-1 bg-primary font-weight-bold">
+                <p>SECTION</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi vel quam ac felis porta aliquam. Morbi
+                    dapibus mi metus, non condimentum sem pellentesque vulputate. 
+                    Nullam viverra dictum lacus, id facilisis nisl.
+                    Praesent in urna auctor, lobortis lectus vitae, aliquet lacus. 
+                    Duis elementum, quam a tincidunt imperdiet, lacus tellus lacinia tellus, ac sollicitudin nunc libero nec ex.
+                    Duis ac ex condimentum, aliquam est ac, laoreet sem. Donec interdum dapibus elementum.
+                    </p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 order-sm-2 order-md-2 bg-info font-weight-bold">
+                <p>ASIDE2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-success font-weight-bold">
+                <p>FOOTER</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
